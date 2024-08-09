@@ -48,7 +48,7 @@ export default function Content({ id }) {
                             </section>
                         </section>
                     </section>
-                    <img src= { HatPhoto } alt="Hat Photo of mine" className="w-[20rem] border-4 border-neon-cyan rounded-lg object-cover"/>
+                    <img src= { HatPhoto } alt="Hat Photo of mine" className="w-[20rem] border-4 border-neon-cyan rounded-lg object-cover hidden lg:block"/>
                 </section>
             </section>
         )
@@ -83,7 +83,7 @@ export default function Content({ id }) {
                         <li>FRONT-END DEVELOPMENT</li>
                     </ul>
                 </nav>
-                <section className="flex gap-4">
+                <section className="grid grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] gap-4">
                     <PortfolioCard preview={ TumbasYukPreview } title="TumbasYuk! Landing Page" link="https://tumbas-yuk-landing-page.vercel.app"/>
                     <PortfolioCard preview={ TravelAgentkuPreview } title="TravelAgentku" link="https://travelagentku-landing-page.vercel.app"/>
                     <PortfolioCard preview={ KBCPreview } title="KBC Quizzes Mini Game" link="https://kbc-quizzes-game.vercel.app"/>

@@ -1,6 +1,6 @@
 export default function PortfolioCard({preview, title, link}) {
     return (
-        <section className="w-[50%] flex flex-col">
+        <section className="flex flex-col">
             <a href={ link } target="_blank">
                 <img src={ preview } alt={ title } className="w-full h-full rounded-t-lg object-cover" />
             </a>
