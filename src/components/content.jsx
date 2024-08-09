@@ -98,6 +98,7 @@ export default function Content({ id }) {
                     <a href="mailto:raulahmadm314@gmail.com"><img src={ EmailIcon } alt="Email Icon" className="h-8"/></a>
                     <a href="https://linkedin.com/in/raulahmadm"><img src={ LinkedinIcon } alt="Linkedin Icon" className="h-8" /></a>
                     <a href="https://instagram.com/raul.maulidhino"><img src={ InstagramIcon } alt="Instagram Icon" className="h-8" /></a>
+                    <a href="https://github.com/raulmaulidhino-dev"><img src={ GithubIcon } alt="Github Icon" className="h-8" /></a>
                 </section>
             </footer>
         )
