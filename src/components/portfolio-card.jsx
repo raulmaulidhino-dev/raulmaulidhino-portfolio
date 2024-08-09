@@ -1,10 +1,10 @@
 export default function PortfolioCard({preview, title, link}) {
     return (
-        <section className="relative w-[50%] overflow-hidden border-2 border-neon-cyan rounded-lg">
+        <section className="w-[50%] flex flex-col">
             <a href={ link } target="_blank">
-                <img src={ preview } alt={ title } className="w-full h-full object-cover" />
+                <img src={ preview } alt={ title } className="w-full h-full rounded-t-lg object-cover" />
             </a>
-            <section className="absolute bottom-0 left-0 bg-opacity-50 bg-neon-violet text-center text-md font-semibold py-2 px-4 rounded-tr-lg">
+            <section className="bg-opacity-50 bg-neon-violet text-center text-md rounded-b-lg font-semibold py-2 px-4">
                 { title }
             </section>
         </section>

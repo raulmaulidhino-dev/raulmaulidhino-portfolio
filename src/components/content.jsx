@@ -12,6 +12,11 @@ import CodeIcon from '../assets/icons/code-solid.svg'
 import PromptIcon from '../assets/icons/file-code-solid.svg'
 import DesignIcon from '../assets/icons/object-group-solid.svg'
 
+import EmailIcon from '../assets/icons/envelope-solid.svg'
+import LinkedinIcon from '../assets/icons/linkedin-brands-solid.svg'
+import InstagramIcon from '../assets/icons/instagram-brands-solid.svg'
+import GithubIcon from '../assets/icons/github-brands-solid.svg'
+
 export default function Content({ id }) {
 
     let educations = [
@@ -23,12 +28,10 @@ export default function Content({ id }) {
         }
     ];
 
-    let experiences = [];
-
     if (id === "about_me") {
         return (
             <section>
-                <section className="flex gap-8">
+                <section className="flex flex-col lg:flex-row gap-8">
                     <section className="flex flex-col gap-6">
                         <h2 className="text-3xl font-semibold">I&apos;m <span className="font-extrabold">Raul Ahmad Maulidhino</span>, Junior FE Developer / AI Enthusiast</h2>
                         <p>
@@ -45,7 +48,7 @@ export default function Content({ id }) {
                             </section>
                         </section>
                     </section>
-                    <img src= { HatPhoto } alt="Hat Photo of mine" className="w-[20rem] border-4 border-neon-cyan rounded-lg"/>
+                    <img src= { HatPhoto } alt="Hat Photo of mine" className="w-[20rem] border-4 border-neon-cyan rounded-lg object-cover"/>
                 </section>
             </section>
         )
@@ -56,23 +59,19 @@ export default function Content({ id }) {
                     <h3 className="text-3xl font-bold">EDUCATION</h3>
                     <section className="grid grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] [grid-gap:1rem;]">
                         { educations.length > 0 ?
-                            educations.map((education, i) => (
+                            educations.map((education) => (
                                 <EducationCard schoolName={ education.schoolName } startYear={ education.startYear } endYear={ education.endYear } description={ education.description } />
                             ))
                         : (<div className="mx-auto">I don&apos;t have any educations yet!</div>) }
                         
                     </section>
                 </section>
-                <secion className="experience">
+                <section className="experience">
                     <h3 className="text-3xl font-bold">EXPERIENCE</h3>
                     <section className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] [grid-gap:1rem;]">
-                    { experiences.length > 0 ?
-                        experiences.map((experience, i) => (
-                            <EducationCard schoolName={ experience.schoolName } startYear={ experience.startYear } endYear={ experience.endYear } description={ experience.description } />
-                        ))
-                    : (<div className="grid place-items-center min-h-[10rem]">I don&apos;t have any experiences yet!</div>) }
+                    <div className="grid place-items-center min-h-[10rem]">I don&apos;t have any experiences yet!</div>
                     </section>
-                </secion>
+                </section>
             </section>
         )
     } else if (id === "portfolio") {
@@ -92,6 +91,15 @@ export default function Content({ id }) {
             </section>
         )
     } else if (id === "contact_me") {
-        
+        return (
+            <footer>
+                <h2 className="text-3xl text-center font-semibold mb-[1em]">Feel <span className="font-extrabold">Free</span> to contact me!</h2>
+                <section className="flex gap-4 justify-center items-center">
+                    <a href="mailto:raulahmadm314@gmail.com"><img src={ EmailIcon } alt="Email Icon" className="h-8"/></a>
+                    <a href="https://linkedin.com/in/raulahmadm"><img src={ LinkedinIcon } alt="Linkedin Icon" className="h-8" /></a>
+                    <a href="https://instagram.com/raul.maulidhino"><img src={ InstagramIcon } alt="Instagram Icon" className="h-8" /></a>
+                </section>
+            </footer>
+        )
     }
 }

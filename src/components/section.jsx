@@ -1,7 +1,6 @@
-import React from 'react';
 import Content from './content.jsx';
 
-export default function Section({ id, title,}) {
+export default function Section({ id, title }) {
     return(
         <section id={ id } className="h-fit bg-dark-blue">
             <section className="p-16">
