@@ -5,7 +5,7 @@ import IntroductionSection from './components/introduction-section'
 import MainSection from './components/main-section.jsx'
 
 function App() {
-  let roles = ["Junior Front-End Developer", "AI Enthusiast"];
+  let roles = ["Front-End Developer", "AI Enthusiast"];
 
   return (
     <div id="main_wrapper">

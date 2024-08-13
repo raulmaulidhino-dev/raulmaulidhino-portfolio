@@ -1,17 +1,23 @@
 import pfp1 from '../assets/cyberpunk-1.jpg'
 
+import RocketOverviewIcon from '../assets/icons/rocket-overview.svg'
+import AboutMeIcon from '../assets/icons/about-me.svg'
+import ResumeIcon from '../assets/icons/briefcase.svg'
+import PortfolioIcon from '../assets/icons/portfolio.svg'
+import ContactMeIcon from '../assets/icons/contact-me.svg'
+
 export default function SideNavigation() {
     return (
-        <section className="side-nav fixed right-0 bottom-0 left-0 lg:bottom-auto lg:relative lg:h-full lg:self-stretch bg-dark-blue">
-            <section className="lg:sticky lg:h-screen overflow-auto lg:overflow-hidden bg-dark-blue border-r-2 border-neon-violet lg:top-0">
+        <section className="side-nav lg:bottom-auto lg:relative lg:h-full lg:self-stretch bg-dark-blue">
+            <section className="lg:sticky lg:h-screen overflow-auto lg:overflow-hidden bg-dark-blue border-t-2 border-t-neon-magenta lg:border-t-none border-r-2 border-neon-magenta lg:top-0">
                 <img src={ pfp1 } alt="Picture of mine" className="hidden lg:block lg:w-full lg:h-[35vh] lg:object-cover bg-dark-blue" />
                 <nav className="lg:h-[70vh]">
-                    <ul className="lg:h-full bg-dark-blue lg:font-extrabold text-md lg:text-xl flex lg:flex-col justify-center items-center gap-4">
-                        <li><a href="#home">HOME</a></li>
-                        <li><a href="#about_me">ABOUT ME</a></li>
-                        <li><a href="#resume">RESUME</a></li>
-                        <li><a href="#portfolio">PORTFOLIO</a></li>
-                        <li><a href="#contact_me">CONTACT</a></li>
+                    <ul className="lg:h-full bg-dark-blue lg:font-extrabold text-md lg:text-xl flex lg:flex-col justify-around lg:justify-center items-center gap-4 p-4 lg:p-auto">
+                        <li><a href="#overview" title="Overview"><img src={ RocketOverviewIcon } className="h-[1.5em] lg:hidden" /><span className="hidden lg:block">OVERVIEW</span></a></li>
+                        <li><a href="#about_me" title="About Me"><img src={ AboutMeIcon } className="h-[1.5em] lg:hidden" /><span className="hidden lg:block">ABOUT ME</span></a></li>
+                        <li><a href="#resume" title="Resume"><img src={ ResumeIcon } className="h-[1.5em] lg:hidden" /><span className="hidden lg:block">RESUME</span></a></li>
+                        <li><a href="#portfolio" title="Portfolio"><img src={ PortfolioIcon } className="h-[1.5em] lg:hidden" /><span className="hidden lg:block">PORTFOLIO</span></a></li>
+                        <li><a href="#contact_me" title="Contact Me"><img src={ ContactMeIcon } className="h-[1.5em] lg:hidden" /><span className="hidden lg:block">CONTACT ME</span></a></li>
                     </ul>
                 </nav>
             </section>

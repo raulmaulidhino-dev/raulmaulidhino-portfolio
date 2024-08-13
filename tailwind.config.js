@@ -18,7 +18,7 @@ export default {
     extend: {
       colors: {
         "special-white": "var(--special-white)",
-        "neon-violet": "var(--neon-violet)",
+        "neon-magenta": "var(--neon-magenta)",
         "neon-cyan": "var(--neon-cyan)",
         "neon-blue": "var(--neon-blue)",
         "dark-blue": "var(--dark-blue)",

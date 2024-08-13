@@ -16,13 +16,12 @@
 
   :root {
     --special-white: #FDFDFD;
-    --neon-violet: #FF2A6D;
+    --neon-magenta: #FF2A6D;
     --neon-cyan: #05D9E8;
     --neon-blue: #35A0EE;
     --dark-blue: #01012b;
     --font-size: 1rem;
   }
-
 
   html {
     scroll-behavior: smooth;
@@ -40,9 +39,17 @@
     width: 100%;
   }
 
+  main > section > section h1 {
+    color: var(--neon-magenta)
+  }
+
+  main > section > section:nth-child(4n) h1 {
+    color: var(--neon-cyan);
+  }
+
   .my__name {
     background-image: 
-      linear-gradient(90deg, var(--neon-cyan) 5%, var(--neon-blue), var(--neon-violet));
+      linear-gradient(90deg, var(--neon-cyan) 5%, var(--neon-blue), var(--neon-magenta));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
