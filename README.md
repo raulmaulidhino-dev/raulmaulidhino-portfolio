@@ -13,7 +13,7 @@ To see the project, follow these steps:
 
    ```bash
    git clone https://github.com/raulmaulidhino-dev/portfolio-reactjs.git
-   cd [directory-to-save-the-repo]
+   cd portfolio-reactjs
 
 2. **Install Dependencies**
 
