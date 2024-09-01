@@ -2,11 +2,12 @@ import EducationCard from './education-card'
 import SimpleCard from './simple-card'
 import PortfolioCard from './portfolio-card'
 
-import HatPhoto from '../assets/hat-photo-of-mine.jpg'
-
-import TumbasYukPreview from '../assets/previews/tumbas-yuk-landing-page-preview.png'
-import TravelAgentkuPreview from '../assets/previews/TravelAgentku-preview.png'
-import KBCPreview from '../assets/previews/kbc-quizzes-game-preview.png'
+import Projek1Preview_webp from '../assets/previews/tumbas-yuk-landing-page-preview.webp'
+import Projek1Preview_png from '../assets/previews/tumbas-yuk-landing-page-preview.png'
+import Projek2Preview_webp from '../assets/previews/TravelAgentku-preview.webp'
+import Projek2Preview_png from '../assets/previews/TravelAgentku-preview.png'
+import Projek3Preview_webp from '../assets/previews/kbc-quizzes-game-preview.webp'
+import Projek3Preview_png from '../assets/previews/kbc-quizzes-game-preview.png'
 
 import CodeIcon from '../assets/icons/code.svg'
 import PromptIcon from '../assets/icons/prompt.svg'
@@ -49,7 +50,6 @@ export default function Content({ id }) {
                             </section>
                         </section>
                     </section>
-                    <img src= { HatPhoto } alt="Hat Photo of mine" className="w-[20rem] border-4 border-neon-cyan rounded-lg object-cover hidden lg:block"/>
                 </section>
             </section>
         )
@@ -79,9 +79,9 @@ export default function Content({ id }) {
                     </ul>
                 </nav>
                 <section className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-4">
-                    <PortfolioCard preview={ TumbasYukPreview } title="TumbasYuk! Landing Page" link="https://tumbas-yuk-landing-page.vercel.app"/>
-                    <PortfolioCard preview={ TravelAgentkuPreview } title="TravelAgentku" link="https://travelagentku-landing-page.vercel.app"/>
-                    <PortfolioCard preview={ KBCPreview } title="KBC Quizzes Mini Game" link="https://kbc-quizzes-game.vercel.app"/>
+                    <PortfolioCard preview={ Projek1Preview_webp } fallback_preview={ Projek1Preview_png } title="TumbasYuk! Landing Page" link="https://tumbas-yuk-landing-page.vercel.app"/>
+                    <PortfolioCard preview={ Projek2Preview_webp } fallback_preview={ Projek2Preview_png } title="TravelAgentku" link="https://travelagentku-landing-page.vercel.app"/>
+                    <PortfolioCard preview={ Projek3Preview_webp } fallback_preview={ Projek3Preview_png } title="KBC Quizzes Mini Game" link="https://kbc-quizzes-game.vercel.app"/>
                 </section>
             </section>
         )
