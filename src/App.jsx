@@ -1,17 +1,17 @@
 import React from 'react';
-import './index.css'
-import './App.css'
-import IntroductionSection from './components/introduction-section'
-import MainSection from './components/main-section.jsx'
+import './index.css';
+import './App.css';
+import Hero from './components/Hero.jsx';
+import Main from './components/Main.jsx';
 
 function App() {
   let roles = ["Front-End Developer", "AI Enthusiast"];
 
   return (
-    <div id="main_wrapper">
-      <IntroductionSection name="RAUL" roles={ roles } />
-      <MainSection />
-    </div>
+    <>
+      <Hero name="RAUL" roles={ roles } />
+      <Main />
+    </>
   )
 }
 

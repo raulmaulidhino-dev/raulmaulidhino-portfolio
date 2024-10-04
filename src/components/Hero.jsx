@@ -1,8 +1,8 @@
-import pfp1_webp from '../assets/cyberpunk-1.webp'
-import pfp1_jpg from '../assets/cyberpunk-1.jpg'
-import Button from './button.jsx';
+import pfp1_webp from '../assets/cyberpunk-1.webp';
+import pfp1_jpg from '../assets/cyberpunk-1.jpg';
+import Button from './Button.jsx';
 
-export default function IntroductionSection({ name, roles }) {
+export default function Hero({ name, roles }) {
     return (
         <section id="overview" className="flex flex-col-reverse lg:flex-row text-special-white bg-dark-blue">
             <section className="flex flex-col justify-center gap-5 lg:px-[5rem] px-8 py-12">
