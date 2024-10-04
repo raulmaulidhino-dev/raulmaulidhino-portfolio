@@ -2,17 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/main.jsx",
-    "./src/App.jsx",
-    "./src/components/introduction-section.jsx",
-    "./src/components/button.jsx",
-    "./src/components/section.jsx",
-    "./src/components/main-section.jsx",
-    "./src/components/side-navigation.jsx",
-    "./src/components/content.jsx",
-    "./src/components/education-card.jsx",
-    "./src/components/simple-card.jsx",
-    "./src/components/portfolio-card.jsx",
+    "./src/**/*.{js,jsx}",
   ],
   theme: {
     extend: {
