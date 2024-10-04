@@ -26,8 +26,10 @@ export default function AboutMe() {
                     <div className="max-w-[500px]">
                         <h2 className="text-xl md:text-3xl font-semibold mb-[1em]">I&apos;m <span className="font-extrabold">Raul Ahmad Maulidhino</span>, Junior FE Developer / AI Enthusiast</h2>
                         <p>
-                            I&apos;m a <span>17</span>-year old student who likes to code and learn new technologies, mainly AI and Robotic technologies.
-                            I&apos;ve always been fascinated by the world of technology and always looking forward to explore new opportunities!
+                            I&apos;m a <span>17</span>-year old student passionate about <strong className="text-neon-cyan">Coding, AI, Robotics, and Web Development</strong>.
+                            I&apos;m always exploring new technologies, dedicating my time to learn and experiment with <strong className="text-neon-magenta">Machine Learning, Automation, and Web Technologies</strong>.
+                            Continuously, updating my skills, I stay on top of industry trends through self-study and hands-on projects.
+                            I&apos;m excited to apply my knowledge in real-world scenarios and keep growing within these fields.
                         </p>
                     </div>
                 </section>
