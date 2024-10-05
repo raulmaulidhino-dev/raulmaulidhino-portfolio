@@ -7,11 +7,11 @@ export default function SideNavigation() {
                 <img src={ pfp1 } alt="Picture of mine" className="hidden lg:block lg:w-full lg:h-[35vh] lg:object-cover bg-dark-blue" />
                 <nav className="lg:h-[70vh]">
                     <ul className="lg:h-full bg-dark-blue lg:font-extrabold text-md lg:text-xl flex lg:flex-col justify-around lg:justify-center items-center gap-8 p-4 lg:p-auto">
-                        <li><a href="#overview" title="Overview"><span className="hidden lg:block">OVERVIEW</span></a></li>
-                        <li><a href="#about_me" title="About Me"><span className="hidden lg:block">ABOUT ME</span></a></li>
-                        <li><a href="#resume" title="Resume"><span className="hidden lg:block">RESUME</span></a></li>
-                        <li><a href="#portfolio" title="Portfolio"><span className="hidden lg:block">PORTFOLIO</span></a></li>
-                        <li><a href="#contact_me" title="Contact Me"><span className="hidden lg:block">CONTACT ME</span></a></li>
+                        <li><a href="#overview" title="Overview"><span className="hidden lg:block transition-transform transform duration-300 ease-in-out hover:scale-125 hover:text-neon-magenta">OVERVIEW</span></a></li>
+                        <li><a href="#about_me" title="About Me"><span className="hidden lg:block transition-transform transform duration-300 ease-in-out hover:scale-125 hover:text-neon-cyan">ABOUT ME</span></a></li>
+                        <li><a href="#resume" title="Resume"><span className="hidden lg:block transition-transform transform duration-300 ease-in-out hover:scale-125 hover:text-neon-magenta">RESUME</span></a></li>
+                        <li><a href="#portfolio" title="Portfolio"><span className="hidden lg:block transition-transform transform duration-300 ease-in-out hover:scale-125 hover:text-neon-cyan">PORTFOLIO</span></a></li>
+                        <li><a href="#contact_me" title="Contact Me"><span className="hidden lg:block transition-transform transform duration-300 ease-in-out hover:scale-125 hover:text-neon-magenta">CONTACT ME</span></a></li>
                     </ul>
                 </nav>
             </section>
