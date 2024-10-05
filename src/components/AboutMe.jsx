@@ -15,7 +15,7 @@ export default function AboutMe() {
     ];
 
     return (
-        <section id="about_me" className="px-10 py-[6rem]add">
+        <section id="about_me" className="px-10 py-[6rem]">
             <h2 className="text-neon-magenta font-extrabold text-center text-5xl font-special md:text-6xl mb-10" data-aos="zoom-in">ABOUT ME</h2>
             <section className="flex flex-col gap-8">
                 <section className="flex flex-wrap justify-center gap-6">
