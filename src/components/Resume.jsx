@@ -12,9 +12,9 @@ export default function Resume() {
 
     return(
         <section id="resume" className="flex flex-col gap-8 px-10 py-[6rem]">
-            <h2 className="text-neon-cyan font-extrabold text-center text-5xl font-special md:text-6xl mb-10">RESUME</h2>
+            <h2 className="text-neon-cyan font-extrabold text-center text-5xl font-special md:text-6xl mb-10" data-aos="zoom-in">RESUME</h2>
             <section className="education">
-                <h3 className="text-xl md:text-3xl font-bold">EDUCATION</h3>
+                <h3 className="text-xl md:text-3xl font-bold" data-aos="zoom-in">EDUCATION</h3>
                 <section className="grid grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] [grid-gap:1rem;]">
                     { educations.map((education, index) => (
                             <EducationCard key={ index } schoolName={ education.schoolName } startYear={ education.startYear } endYear={ education.endYear } description={ education.description } />

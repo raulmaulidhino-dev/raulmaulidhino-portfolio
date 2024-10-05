@@ -1,9 +1,9 @@
 export default function PortfolioCard({preview, fallback_preview, title, link}) {
     return (
-        <section className="flex flex-col">
+        <section className="flex flex-col" data-aos="fade-down">
             <a href={ link } target="_blank">
                 <picture>
-                    <source srcset={ preview } type="image/webp" />
+                    <source srcSet={ preview } type="image/webp" />
                     <img src= { fallback_preview } alt={ title } className="w-full h-full rounded-t-lg object-cover" />
                 </picture>
             </a>
