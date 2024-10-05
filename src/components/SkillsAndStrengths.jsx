@@ -1,7 +1,7 @@
 export default function SkillsAndStrengths() {
     return (
         <section id="skills_and_strengths" className="flex flex-col gap-8 px-10 py-[6rem]">
-            <h2 className="text-neon-cyan font-extrabold text-center text-5xl font-special md:text-6xl mb-10" data-aos="zoom-in">SKILLS &amp; STRENGTHS</h2>
+            <h2 className="text-neon-magenta font-extrabold text-center text-5xl font-special md:text-6xl mb-10" data-aos="zoom-in">SKILLS &amp; STRENGTHS</h2>
             <section>
                 <h3 className="text-2xl md:text-3xl font-bold mb-[1em]" data-aos="zoom-in">Technical Proficiency :</h3>
                 <section className="bg-white w-fit border-b-2 border-b-neon-magenta border-l-2 border-l-neon-magenta border-r-2 border-r-neon-cyan border-t-2 border-t-neon-cyan rounded-[17px] mx-auto p-6 flex flex-wrap gap-x-2 gap-y-4">
