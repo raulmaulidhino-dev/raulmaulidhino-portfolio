@@ -1,13 +1,24 @@
 import PortfolioCard from './PortfolioCard.jsx';
 
-import Projek1Preview_webp from '../assets/previews/tumbas-yuk-landing-page-preview.webp';
-import Projek1Preview_png from '../assets/previews/tumbas-yuk-landing-page-preview.png';
-import Projek2Preview_webp from '../assets/previews/TravelAgentku-preview.webp';
-import Projek2Preview_png from '../assets/previews/TravelAgentku-preview.png';
-import Projek3Preview_webp from '../assets/previews/kbc-quizzes-game-preview.webp';
-import Projek3Preview_png from '../assets/previews/kbc-quizzes-game-preview.png';
+import HomifyPreview from '../assets/previews/Homify-preview.webp'
+import HomifyPreview_fallback from '../assets/previews/Homify-preview.webp'
+import TravelAgentkuPreview from '../assets/previews/TravelAgentku-preview.webp';
+import TravelAgentkuPreview_fallback from '../assets/previews/TravelAgentku-preview.png';
+import KBCQuizzesGamePreview from '../assets/previews/KBC-Quizzes-Game-preview.webp';
+import KBCQuizzesGamePreview_fallback from '../assets/previews/KBC-Quizzes-Game-preview.png';
+import TumbasYukPreview from '../assets/previews/TumbasYuk!-landing-page-preview.webp';
+import TumbasYukPreview_falback from '../assets/previews/TumbasYuk!-landing-page-preview.png';
+
 
 export default function Portfolio() {
+
+    let projects = [
+        {preview: HomifyPreview, preview_fallback: HomifyPreview_fallback, title: 'Homify: Innovative Smart Home', link: 'https://homify-web.vercel.app'},
+        {preview: TravelAgentkuPreview, preview_fallback: TravelAgentkuPreview_fallback, title: 'TravelAgentku', link: 'https://travelagentku-landing-page.vercel.app'},
+        {preview: KBCQuizzesGamePreview, preview_fallback: KBCQuizzesGamePreview_fallback, title: 'KBC GAME!!', link: 'https://kbc-quizzes-game.vercel.app'},
+        {preview: TumbasYukPreview, preview_fallback: TumbasYukPreview_falback, title: 'TumbasYuk!', link: 'https://tumbas-yuk-landing-page.vercel.app'},
+    ];
+
     return (
         <section id="portfolio" className="py-[6rem] px-4 md:px-[6rem] flex flex-col gap-4">
             <h2 className="text-neon-cyan font-extrabold text-center text-5xl font-special md:text-6xl mb-10" data-aos="zoom-in">PORTFOLIO</h2>
@@ -18,9 +29,9 @@ export default function Portfolio() {
                 </ul>
             </nav>
             <section className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-4">
-                <PortfolioCard preview={ Projek1Preview_webp } fallback_preview={ Projek1Preview_png } title="TumbasYuk! Landing Page" link="https://tumbas-yuk-landing-page.vercel.app" />
-                <PortfolioCard preview={ Projek2Preview_webp } fallback_preview={ Projek2Preview_png } title="TravelAgentku" link="https://travelagentku-landing-page.vercel.app" />
-                <PortfolioCard preview={ Projek3Preview_webp } fallback_preview={ Projek3Preview_png } title="KBC Quizzes Mini Game" link="https://kbc-quizzes-game.vercel.app" />
+                {projects.map((project, index) => (
+                    <PortfolioCard key={index} preview={project.preview} preview_fallback={project.preview_fallback} title={project.title} link={project.link} />
+                ))}
             </section>
         </section>
     )   
