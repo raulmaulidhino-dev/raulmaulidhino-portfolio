@@ -19,8 +19,9 @@ export default function SkillsAndStrengths() {
                     <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1200" title="C++" aria-label="C plus plus" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
                     <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1300" title="Git" aria-label="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
                     <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1400" title="ESLint" aria-label="ESLint" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1500" title="Bash (Bourne-Again SHell)" aria-label="Bash" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1600" title="Linux" aria-label="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1500" title="Inkscape" aria-label="Inkscape" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/inkscape/inkscape-original.svg" />
+                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1600" title="Bash (Bourne-Again SHell)" aria-label="Bash" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
+                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1700" title="Linux" aria-label="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
                 </section>
                 {/* <h3 className="text-2xl md:text-3xl font-bold my-[1em]" data-aos="zoom-in">Core Strengths :</h3> */}
                 <section>
