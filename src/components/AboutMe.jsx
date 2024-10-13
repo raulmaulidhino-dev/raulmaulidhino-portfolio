@@ -1,7 +1,7 @@
 import DoCard from './DoCard.jsx';
 
-import DeveloperPicture_webp from '../assets/developer-picture.webp';
-import DeveloperPicture_jpg from '../assets/developer-picture.jpg';
+import DeveloperPicture from '../assets/developer-picture.webp';
+import DeveloperPicture_fallback from '../assets/developer-picture.jpg';
 
 
 import { TbDragDrop as Design, TbCode as Code, TbTex as Prompt} from 'react-icons/tb';
@@ -20,8 +20,8 @@ export default function AboutMe() {
             <section className="flex flex-col gap-8">
                 <section className="flex flex-wrap justify-center gap-6">
                     <picture className="max-w-[300px] w-full inline-block" data-aos="fade-right">
-                        <source srcSet={ DeveloperPicture_webp } type="image/webp" />
-                        <img src= { DeveloperPicture_jpg } alt="Picture of the Developer" className="w-full h-full rounded-t-lg object-cover" />
+                        <source srcSet={ DeveloperPicture } type="image/webp" />
+                        <img src= { DeveloperPicture_fallback } alt="Picture of the Developer" className="w-full h-full rounded-t-lg object-cover" />
                     </picture>
                     <div className="max-w-[500px]">
                         <h2 className="text-xl md:text-3xl font-semibold mb-[1em]"  data-aos="fade-right">I&apos;m <span className="font-extrabold">Raul Ahmad Maulidhino</span>, Junior FE Developer / AI Enthusiast</h2>

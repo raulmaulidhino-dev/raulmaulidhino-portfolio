@@ -1,5 +1,5 @@
-import pfp1_webp from '../assets/cyberpunk-1.webp';
-import pfp1_jpg from '../assets/cyberpunk-1.jpg';
+import pfp1 from '../assets/cyberpunk-1.webp';
+import pfp1_fallback from '../assets/cyberpunk-1.jpg';
 
 export default function Hero({ name, roles }) {
     return (
@@ -19,8 +19,8 @@ export default function Hero({ name, roles }) {
             </section>
             <section className="lg:h-screen lg:min-w-[50%] border-b-4 border-neon-magenta lg:border-l-4 lg:border-neon-cyan">
                 <picture data-aos="zoom-in">
-                    <source srcSet={ pfp1_webp } type="image/webp" />
-                    <img src={ pfp1_jpg } alt="Picture of mine in Cyberpunk style" className="h-full object-cover" />
+                    <source srcSet={ pfp1 } type="image/webp" />
+                    <img src={ pfp1_fallback } alt="Picture of mine in Cyberpunk style" className="h-full object-cover" />
                 </picture>
             </section>
         </section>
