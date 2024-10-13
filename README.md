@@ -2,7 +2,7 @@
 A personal portfolio website, built with HTML, CSS, Tailwind, JavaScript and React.
 
 ## Project Status
-This personal project is currently in development. Visitor can see and read the information about me on the website. More functional and interactive features will be added gradually until I graduated from high school and go to college.
+This personal project is currently in development. Visitors can see and read the information about me on the website. More functional and interactive features will be added gradually until I graduated from high school and go to college.
 
 ## Installation and Setup Instructions
 To see the project, follow these steps:
@@ -12,20 +12,27 @@ To see the project, follow these steps:
    Clone the repository to your local machine and navigate into the project directory:
 
    ```bash
-   git clone https://github.com/raulmaulidhino-dev/portfolio-reactjs.git
-   cd portfolio-reactjs
+   git clone https://github.com/raulmaulidhino-dev/raulmaulidhino-portfolio.git
+   cd raulmaulidhino-portfolio
+   ```
 
 2. **Install Dependencies**
 
    Ensure you have [Node.js](https://nodejs.org/en) installed. Then, install the project dependencies by running:
-   `npm install`
+   
+   ```bash
+   npm install
+   ```
 
-3. **Run the Development Server**
+4. **Run the Development Server**
 
-   Start the development server to see your project in action:
-   `npm run dev`
+   Start the development server to see the project in action:
+   
+   ```bash
+   npm run dev -- --open
+   ```
 
-   Open your browser and go to `http://localhost:3000` to view the application.
+   If it doesn't open automatically, you could open your browser and go to [`http://localhost:5173`](http://localhost:5173) to view the application.
 
 - Alternatively, you also could see the portfolio website here : [raulmaulidhino.pages.dev](https://raulmaulidhino.pages.dev)
 
