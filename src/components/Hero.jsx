@@ -1,5 +1,5 @@
-import pfp1 from '../assets/cyberpunk-1.webp';
-import pfp1_fallback from '../assets/cyberpunk-1.jpg';
+import pfp1 from '../assets/developer-hero.webp';
+import pfp1_fallback from '../assets/developer-hero.png';
 
 export default function Hero({ name, roles }) {
     return (
