@@ -24,8 +24,7 @@ export default function Portfolio() {
             <h2 className="text-neon-cyan font-extrabold text-center text-5xl font-special md:text-6xl mb-10" data-aos="zoom-in">PORTFOLIO</h2>
             <nav>
                 <ul className="font-extrabold flex justify-center items-center gap-8">
-                    <li data-aos="zoom-in">ALL</li>
-                    <li data-aos="zoom-in">FRONT-END DEVELOPMENT</li>
+                    <li data-aos="zoom-in">WEB DEVELOPMENT</li>
                 </ul>
             </nav>
             <section className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-4">
