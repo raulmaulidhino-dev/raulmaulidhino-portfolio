@@ -1,22 +1,22 @@
 import PortfolioCard from './PortfolioCard.jsx';
 
 import HomifyPreview from '../assets/previews/Homify-preview.webp'
-import HomifyPreview_fallback from '../assets/previews/Homify-preview.webp'
+import HomifyPreview_fallback from '../assets/previews/Homify-preview.png'
 import TravelAgentkuPreview from '../assets/previews/TravelAgentku-preview.webp';
 import TravelAgentkuPreview_fallback from '../assets/previews/TravelAgentku-preview.png';
 import KBCQuizzesGamePreview from '../assets/previews/KBC-Quizzes-Game-preview.webp';
 import KBCQuizzesGamePreview_fallback from '../assets/previews/KBC-Quizzes-Game-preview.png';
-import TumbasYukPreview from '../assets/previews/TumbasYuk!-landing-page-preview.webp';
-import TumbasYukPreview_falback from '../assets/previews/TumbasYuk!-landing-page-preview.png';
+import ESBozzPreview from '../assets/previews/ESBozz-preview.webp';
+import ESBozzPreview_fallback from '../assets/previews/ESBozz-preview.png';
 
 
 export default function Portfolio() {
 
     let projects = [
-        {preview: HomifyPreview, preview_fallback: HomifyPreview_fallback, title: 'Homify: Innovative Smart Home', link: 'https://homify-web.vercel.app'},
+        {preview: ESBozzPreview, preview_fallback: ESBozzPreview_fallback, title: 'English Society-Bozz', link: 'https://english-society-bozz.vercel.app'},
+        {preview: HomifyPreview, preview_fallback: HomifyPreview_fallback, title: 'Homify', link: 'https://homify-web.vercel.app'},
         {preview: TravelAgentkuPreview, preview_fallback: TravelAgentkuPreview_fallback, title: 'TravelAgentku', link: 'https://travelagentku-landing-page.vercel.app'},
         {preview: KBCQuizzesGamePreview, preview_fallback: KBCQuizzesGamePreview_fallback, title: 'KBC GAME!!', link: 'https://kbc-quizzes-game.vercel.app'},
-        {preview: TumbasYukPreview, preview_fallback: TumbasYukPreview_falback, title: 'TumbasYuk!', link: 'https://tumbas-yuk-landing-page.vercel.app'},
     ];
 
     return (
