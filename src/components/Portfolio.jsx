@@ -8,6 +8,8 @@ import KBCQuizzesGamePreview from '../assets/previews/KBC-Quizzes-Game-preview.w
 import KBCQuizzesGamePreview_fallback from '../assets/previews/KBC-Quizzes-Game-preview.png';
 import ESBozzPreview from '../assets/previews/ESBozz-preview.webp';
 import ESBozzPreview_fallback from '../assets/previews/ESBozz-preview.png';
+import AlIstiqomahMosquePreview from '../assets/previews/AlIstiqomahMosque-preview.webp';
+import AlIstiqomahMosquePreview_fallback from '../assets/previews/AlIstiqomahMosque-preview.png';
 
 
 export default function Portfolio() {
@@ -15,6 +17,7 @@ export default function Portfolio() {
     let projects = [
         {preview: ESBozzPreview, preview_fallback: ESBozzPreview_fallback, title: 'English Society-Bozz', link: 'https://english-society-bozz.vercel.app'},
         {preview: HomifyPreview, preview_fallback: HomifyPreview_fallback, title: 'Homify', link: 'https://homify-web.vercel.app'},
+        {preview: AlIstiqomahMosquePreview, preview_fallback: AlIstiqomahMosquePreview_fallback, title: 'Al Istiqomah Mosque', link: 'https://al-istiqomah-mosque.netlify.app'},
         {preview: TravelAgentkuPreview, preview_fallback: TravelAgentkuPreview_fallback, title: 'TravelAgentku', link: 'https://travelagentku-landing-page.vercel.app'},
         {preview: KBCQuizzesGamePreview, preview_fallback: KBCQuizzesGamePreview_fallback, title: 'KBC GAME!!', link: 'https://kbc-quizzes-game.vercel.app'},
     ];
