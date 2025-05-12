@@ -12,7 +12,7 @@ export default function Hero({ name, roles }) {
                         <div className="even:text-black bg-neon-blue odd:bg-neon-magenta text-special-white text-sm font-bold uppercase px-3 py-2 rounded-md" key={"role " + index} data-aos="zoom-in">{ role }</div> 
                     ))}
                 </section>
-                <p className="text-justify my-4" data-aos="fade-down">A final-year of senior high school student who has a keen interest in <span>Web Development</span>, <span>Robotic</span>, <span>AI</span>, and <span>Languages</span>.  A novice <span>coder</span> who always eager to learn new technologies to enhance his skills. A learner whose goal is to deliver innovative solutions that can make a positive impact on society.</p>
+                <p className="text-justify my-4" data-aos="fade-down">A recent high school graduate who has a keen interest in <span>Web Development</span>, <span>Robotic</span>, <span>AI</span>, and <span>Languages</span>.  A novice <span>coder</span> who always eager to learn new technologies to enhance his skills. A learner whose goal is to deliver innovative solutions that can make a positive impact on society.</p>
                 <section data-aos="zoom-in-down">
                     <a href="#about_me" className="button-link text-black text-sm md:text-lg bg-neon-cyan font-extrabold py-4 px-5 rounded-full">MORE ABOUT ME</a>
                 </section>
