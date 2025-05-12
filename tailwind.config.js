@@ -15,6 +15,10 @@ export default {
       },
       fontFamily: {
         special: ['"Chakra Petch"', 'sans-serif'],
+      },
+      dropShadow: {
+        "neon-cyan": "0 7px 10px var(--neon-cyan)",
+        "neon-magenta": "0 7px 10px var(--neon-magenta)",
       }
     },
   },
