@@ -1,6 +1,3 @@
-import pfp1 from '../assets/developer-hero.webp';
-import pfp1_fallback from '../assets/developer-hero.png';
-
 export default function Hero({ name, roles }) {
     return (
         <section id="overview" className="flex flex-col-reverse lg:flex-row text-special-white bg-dark-blue">
@@ -19,8 +16,8 @@ export default function Hero({ name, roles }) {
             </section>
             <section className="lg:h-screen lg:min-w-[50%] border-b-4 border-neon-magenta lg:border-l-4 lg:border-neon-cyan">
                 <picture data-aos="zoom-in">
-                    <source srcSet={ pfp1 } type="image/webp" />
-                    <img src={ pfp1_fallback } alt="Picture of mine in Cyberpunk style" className="h-full object-cover" />
+                    <source srcSet="/assets/images/developer-hero.webp" type="image/webp" />
+                    <img src="/assets/images/developer-hero.jpg" alt="Picture of mine" className="h-full object-cover" />
                 </picture>
             </section>
         </section>
