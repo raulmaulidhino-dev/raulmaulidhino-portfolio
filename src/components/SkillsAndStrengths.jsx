@@ -1,32 +1,53 @@
+const techSkills = [
+  { title: "HTML5", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" },
+  { title: "CSS3", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" },
+  { title: "JavaScript", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" },
+  { title: "TypeScript", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
+  { title: "React", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" },
+  { title: "Svelte", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" },
+  { title: "Tailwind CSS", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
+  { title: "Node.js", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" },
+  { title: "Vite", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" },
+  { title: "MySQL", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" },
+  { title: "C++", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" },
+  { title: "Python", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
+  { title: "Git", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" },
+  { title: "Arduino", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" },
+  { title: "Linux", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" },
+];
+
 export default function SkillsAndStrengths() {
-    return (
-        <section id="skills_and_strengths" className="flex flex-col gap-8 px-10 py-[6rem]">
-            <h2 className="text-neon-magenta font-extrabold text-center text-5xl font-special md:text-6xl mb-10" data-aos="zoom-in">SKILLS &amp; STRENGTHS</h2>
-            <section>
-                <h3 className="text-2xl md:text-3xl font-bold mb-[1em]" data-aos="zoom-in">Technical Proficiency :</h3>
-                <section className="bg-white w-fit border-b-2 border-b-neon-magenta border-l-2 border-l-neon-magenta border-r-2 border-r-neon-cyan border-t-2 border-t-neon-cyan rounded-[17px] mx-auto p-6 flex flex-wrap gap-x-2 gap-y-4">
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="100"  title="HTML5" aria-label="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="200"  title="CSS3" aria-label="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="300"  title="JavaScript" aria-label="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="400"  title="TypeScript" aria-label="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="500"  title="React" aria-label="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="600"  title="Svelte" aria-label="Svelte" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="700"  title="Tailwind CSS" aria-label="Tailwind CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="800"  title="Node.js" aria-label="Node.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="900"  title="npm" aria-label="npm" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1000" title="ExpressJS" aria-label="ExpressJS" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1100"  title="Vite" aria-label="Vite" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1200"  title="Python" aria-label="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1300" title="Django" aria-label="Django" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1400" title="Jupyter Notebook" aria-label="Jupyter Notebook" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1500" title="C++" aria-label="C plus plus" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1600" title="Git" aria-label="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1700" title="Bash (Bourne-Again SHell)" aria-label="Bash" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
-                    <img className="w-[4rem] lg:w-[7rem]" data-aos="zoom-in" data-aos-delay="1800" title="Linux" aria-label="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
-                </section>
-                {/* <h3 className="text-2xl md:text-3xl font-bold my-[1em]" data-aos="zoom-in">Core Strengths :</h3> */}
-                <section></section>
+  return (
+    <section id="skills_and_strengths" className="flex flex-col gap-8 px-10 py-[6rem]">
+      <h2
+        className="text-neon-magenta font-extrabold text-center text-5xl font-special md:text-6xl mb-10"
+        data-aos="zoom-in"
+      >
+        SKILLS &amp; STRENGTHS
+      </h2>
+
+      <section>
+        <h3
+          className="text-2xl md:text-3xl font-bold mb-[1em]"
+          data-aos="zoom-in"
+        >
+          Technical Proficiency :
+        </h3>
+
+        <section className="w-fit mx-auto p-6 flex flex-wrap gap-8">
+          {techSkills.map((skill, index) => (
+            <section data-aos="zoom-in" data-aos-delay={100 * (index + 1)} key={skill.title} className="max-w-40 border-b-2 border-b-neon-magenta border-l-2 border-l-neon-magenta border-r-2 border-r-neon-cyan border-t-2 border-t-neon-cyan p-6 rounded-[17px] space-y-6 hover:shadow-lg hover:shadow-neon-magenta">
+                <img
+                    className="w-full"
+                    title={skill.title}
+                    aria-label={skill.title}
+                    src={skill.src}
+                />
+                <div class="text-center w-full">{skill.title}</div>
             </section>
+          ))}
         </section>
-    )
+      </section>
+    </section>
+  );
 }
