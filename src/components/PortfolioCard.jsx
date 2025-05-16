@@ -3,7 +3,7 @@ import { FaCode as SourceCodeIcon } from "react-icons/fa";
 
 export default function PortfolioCard({preview, preview_fallback, title, link, description, labels = [], sourceLink }) {
     return (
-        <article className="flex flex-col rounded-[10px] hover:shadow-lg hover:shadow-neon-magenta" data-aos="fade-down">
+        <article className="flex flex-col rounded-[10px] hover:shadow-lg hover:shadow-neon-magenta" data-aos="zoom-in">
             <a href={ link } target="_blank">
                 <picture>
                     <source srcSet={ preview } type="image/webp" />
@@ -19,11 +19,11 @@ export default function PortfolioCard({preview, preview_fallback, title, link, d
                     ))}
                 </div>
                 <div className="flex flex-wrap gap-2 mt-auto">
-                    <a href={ link } className="text-xs text-black hover:text-white font-bold bg-white hover:bg-black py-1 px-3 rounded-md border-2 border-white flex gap-1 items-center">
+                    <a href={ link } className="text-xs text-black font-bold bg-white py-1 px-3 rounded-md border-2 border-white flex gap-1 items-center hover:shadow-md hover:shadow-neon-cyan">
                         <WebsiteIcon size="15" />
                         <span>Website</span>
                     </a>
-                    <a href={ sourceLink } className="text-xs text-white hover:text-black font-bold bg-black hover:bg-white py-1 px-3 rounded-md border-2 border-white flex gap-1 items-center">
+                    <a href={ sourceLink } className="text-xs text-white font-bold bg-black py-1 px-3 rounded-md border-2 border-white flex gap-1 items-center hover:shadow-md hover:shadow-neon-cyan">
                         <SourceCodeIcon size="15" />
                         <span>Source Code</span>
                     </a>
