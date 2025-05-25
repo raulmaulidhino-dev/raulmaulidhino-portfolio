@@ -3,6 +3,8 @@ import DoCard from './DoCard.jsx';
 import DeveloperPicture from '../assets/developer-picture.webp';
 import DeveloperPicture_fallback from '../assets/developer-picture.jpg';
 
+import { GrDocumentText as CV_Icon } from 'react-icons/gr';
+
 
 import { TbDragDrop as Design, TbCode as Code, TbTerminal2 as Prompt} from 'react-icons/tb';
 
@@ -33,6 +35,10 @@ export default function AboutMe() {
                             Continuously, updating my skills, I stay on top of industry trends through self-study and hands-on projects.
                             I&apos;m excited to apply my knowledge in real-world scenarios and keep growing within these fields.
                         </p>
+                        <a title="Download My CV" href='/assets/documents/CV/Raul-Ahmad-Maulidhino_CV.pdf' download={true} className="text-lg text-neon-magenta font-bold bg-dark-blue w-fit py-3 px-5 rounded-md border-2 border-neon-cyan mt-4 flex gap-2 items-center hover:shadow-md hover:shadow-neon-cyan">
+                            <CV_Icon size="18" />
+                            <span>DOWNLOAD CV</span>
+                        </a>
                     </div>
                 </section>
                 <hr data-aos="zoom-in" />
