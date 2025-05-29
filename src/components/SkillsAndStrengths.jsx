@@ -3,7 +3,7 @@ const techSkills = [
   { title: "CSS", src: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg", href: "https://www.w3.org/Style/CSS" },
   { title: "JavaScript", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
   { title: "TypeScript", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", href: "https://www.typescriptlang.org" },
-  { title: "React", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", href: "https://react.dev" },
+  { title: "React.js", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", href: "https://react.dev" },
   { title: "Svelte", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg", href: "https://svelte.dev" },
   { title: "Tailwind CSS", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg", href: "https://tailwindcss.com" },
   { title: "Node.js", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg", href: "https://nodejs.org" },
