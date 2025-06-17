@@ -19,11 +19,11 @@ export default function PortfolioCard({preview, preview_fallback, title, link, d
                     ))}
                 </div>
                 <div className="flex flex-wrap gap-2 mt-auto">
-                    <a href={ link } className="text-xs text-black font-bold bg-white py-1 px-3 rounded-md border-2 border-white flex gap-1 items-center hover:shadow-md hover:shadow-neon-cyan">
+                    <a href={ link } target="_blank" className="text-xs text-black font-bold bg-white py-1 px-3 rounded-md border-2 border-white flex gap-1 items-center hover:shadow-md hover:shadow-neon-cyan">
                         <WebsiteIcon size="15" />
                         <span>Website</span>
                     </a>
-                    <a href={ sourceLink } className="text-xs text-white font-bold bg-black py-1 px-3 rounded-md border-2 border-white flex gap-1 items-center hover:shadow-md hover:shadow-neon-cyan">
+                    <a href={ sourceLink } target="_blank" className="text-xs text-white font-bold bg-black py-1 px-3 rounded-md border-2 border-white flex gap-1 items-center hover:shadow-md hover:shadow-neon-cyan">
                         <SourceCodeIcon size="15" />
                         <span>Source Code</span>
                     </a>
