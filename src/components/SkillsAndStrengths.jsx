@@ -1,5 +1,5 @@
 const techSkills = [
-  { title: "HTML5", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", href: "https://html.spec.whatwg.org" },
+  { title: "HTML5", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", href: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
   { title: "CSS", src: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg", href: "https://www.w3.org/Style/CSS" },
   { title: "JavaScript", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
   { title: "TypeScript", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", href: "https://www.typescriptlang.org" },
