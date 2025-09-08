@@ -10,6 +10,8 @@ import ESBozzPreview from '../assets/previews/ESBozz-preview.webp';
 import ESBozzPreview_fallback from '../assets/previews/ESBozz-preview.png';
 import AlIstiqomahMosquePreview from '../assets/previews/AlIstiqomahMosque-preview.webp';
 import AlIstiqomahMosquePreview_fallback from '../assets/previews/AlIstiqomahMosque-preview.png';
+import CustomStylePreview from '../assets/previews/CustomStyle-preview.webp';
+import CustomStylePreview_fallback from '../assets/previews/CustomStyle-preview.png';
 
 export default function Portfolio() {
   let projects = [
@@ -30,6 +32,15 @@ export default function Portfolio() {
       description: 'Homify is a prototype smart home website. This single page website is created by me and my friend, Fathur (@siddiqfathurahman) as a submission for INSYFEST 2024 Web Development Competition.',
       labels: ['React', 'JavaScript', 'TailwindCSS'],
       sourceLink: 'https://github.com/raulmaulidhino-dev/homify'
+    },
+    {
+      preview: CustomStylePreview,
+      preview_fallback: CustomStylePreview_fallback,
+      title: 'Custom Style',
+      link: 'https://cstmstyle-landing-page.vercel.app',
+      description: 'Custom Style is an Indonesian small and medium-sized garment enterprise (UMKM) that specializes in producing high-quality custom clothing, ranging from office uniforms to t-shirts and jackets. In this project, I share my own version of landing page design ideas, inspired by the official Custom Style website.',
+      labels: ['Astro', 'Svelte', 'TailwindCSS'],
+      sourceLink: 'https://github.com/raulmaulidhino-dev/Custom-Style-landing-page'
     },
     {
       preview: AlIstiqomahMosquePreview,
