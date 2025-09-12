@@ -1,7 +1,7 @@
 ![My Portfolio Logo](public/cyberpunk-coder-og.jpg)
 
 ## Raul Maulidhino Personal Portfolio
-A personal portfolio website, built with HTML, CSS, Tailwind, JavaScript and React.
+A personal portfolio website, built with HTML, CSS, TailwindCSS, JavaScript and React.
 
 ## Project Status
 This personal project is currently in development. Visitors can see and read the information about me on the website. More functional and interactive features will be added gradually until I graduated from high school and go to college.
