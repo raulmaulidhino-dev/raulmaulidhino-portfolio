@@ -14,7 +14,7 @@ export default function Resume() {
             schoolName: "The Electronic Engineering Polytechnic Institute of Surabaya (EEPIS)",
             startYear: "2025",
             endYear: "Present",
-            description: "I am a new student majoring in Mechatronic Engineering at this polytechnic. I\'m excited to explore anything about Mechatronics, Software Engineering and Robotics. I plan to join the Robotics Club and take part in competitions. I also hope to improve my communication and teamwork skills. I\'m looking forward to graining both technical knowledge and practical experience during my studies."
+            description: "I am a new student majoring in Mechatronics Engineering at this polytechnic. I\'m excited to explore anything about Mechatronics, Software Engineering and Robotics. I plan to join the Software Development and Robotics Club and take part in competitions. I also hope to improve my communication and teamwork skills. I\'m looking forward to graining both technical knowledge and practical experience during my studies."
         },
         {
             schoolLogo: BobotsariSHS1Logo,
@@ -22,7 +22,7 @@ export default function Resume() {
             schoolName: "Bobotsari Senior High School 1 (SMANSABOZZ)",
             startYear: "2022",
             endYear: "2025",
-            description: "I\'ve developed strong analytical and communication skills through course in math, science and English. Active participation in group projects and extracurricular activities has enhanced my teamwork abilities."
+            description: "I\'ve developed strong analytical and communication skills through course in Math, Science and English. Active participation in group projects and extracurricular activities has enhanced my teamwork abilities."
         }
     ];
 
