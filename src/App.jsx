@@ -16,7 +16,7 @@ function App() {
     });
   }, []);
 
-  let roles = ["Full-Stack Developer", "Robotic Enthusiast"];
+  let roles = ["Full-Stack Developer", "Mechatronics Student", "AI & Robotic Enthusiast"];
 
   return (
     <>
