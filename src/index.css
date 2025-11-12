@@ -69,12 +69,6 @@
 
   .button-link:hover {
     color: var(--dark-blue);
-    transform: scale(6);
-    -webkit-transform: scale(6);
-    -moz-transform: scale(6);
-    -ms-transform: scale(6);
-    -o-transform: scale(6);
-
 }
 
   .button-link:active {

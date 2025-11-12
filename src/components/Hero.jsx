@@ -173,26 +173,28 @@ export default function Hero({ name, roles }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
         >
-          Passionate university student exploring Web Development, AI, IoT, and Robotics. A curious learner dedicated to creating innovative,
+          Passionate university student exploring Web Development, AI, IoT, and
+          Robotics. A curious learner dedicated to creating innovative,
           impactful solutions.
         </motion.p>
 
         <motion.section
           data-aos="zoom-in-down"
-          className="my-4 space-x-4"
+          className="my-4 flex flex-wrap justify-center gap-4 w-full max-w-lg mx-auto"
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 1 }}
         >
           <a
             href="#about_me"
-            className="button-link bg-dark-blue text-neon-magenta border-2 border-neon-magenta text-xs md:text-lg font-extrabold py-3 px-4 rounded-full hover:bg-neon-magenta hover:text-dark-blue transition-all duration-300"
+            className="w-full sm:w-auto text-center bg-dark-blue text-neon-magenta border-2 border-neon-magenta text-xs md:text-lg font-extrabold py-3 px-4 rounded-full hover:bg-neon-magenta hover:text-dark-blue hover:scale-105 transform transition-all duration-300"
           >
             MORE ABOUT ME
           </a>
+
           <a
             href="#portfolio"
-            className="button-link bg-dark-blue text-neon-cyan border-2 border-neon-cyan text-xs md:text-lg font-extrabold py-3 px-4 rounded-full hover:bg-neon-cyan hover:text-dark-blue transition-all duration-300"
+            className="w-full sm:w-auto text-center bg-dark-blue text-neon-cyan border-2 border-neon-cyan text-xs md:text-lg font-extrabold py-3 px-4 rounded-full hover:bg-neon-cyan hover:text-dark-blue hover:scale-105 transform transition-all duration-300"
           >
             VIEW MY WORKS
           </a>
