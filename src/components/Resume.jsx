@@ -46,9 +46,9 @@ export default function Resume() {
     {
       certificateName: "Junior Web Programmer Competency",
       certificateImage:
-        "/public/assets/images/certificates/Junior-Web-Programmer-Competency_BNSP.webp",
+        "/assets/images/certificates/Junior-Web-Programmer-Competency_BNSP.webp",
       certificateImage_fallback:
-        "/public/assets/images/certificates/Junior-Web-Programmer-Competency_BNSP.jpg",
+        "/assets/images/certificates/Junior-Web-Programmer-Competency_BNSP.jpg",
       certificateLink:
         "https://drive.google.com/file/d/1kh1xvsmdwU_HHgB31Nic5SXeCzhv1SX0/view?usp=sharing",
       issuedBy: "Lembaga Sertifikasi Profesi Teknologi Digital",
