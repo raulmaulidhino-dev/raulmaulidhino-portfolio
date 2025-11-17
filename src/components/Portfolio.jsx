@@ -19,7 +19,7 @@ export default function Portfolio() {
       preview: ESBozzPreview,
       preview_fallback: ESBozzPreview_fallback,
       title: 'English Society-Bozz',
-      link: 'https://english-society-bozz.vercel.app',
+      link: 'https://www.esbozz.web.id',
       description: 'A dynamic website for my school\'s English Society extracurricular program, created to help students access updates and info about English Society-Bozz anytime, anywhere.',
       labels: ['Svelte', 'TypeScript', 'Express', 'Node.js', 'TailwindCSS', 'PostgreSQL'],
       sourceLink: 'https://github.com/raulmaulidhino-dev/english-society-bozz'
