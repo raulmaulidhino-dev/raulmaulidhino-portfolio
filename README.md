@@ -4,7 +4,7 @@
 A personal portfolio website, built with HTML, CSS, TailwindCSS, JavaScript and React.
 
 ## Project Status
-This personal project is currently in development. Visitors can see and read the information about me on the website. More functional and interactive features will be added gradually until I graduated from high school and go to college.
+This personal project is maintained regularly. Visitors can see and read the information about me on the website. More functional and interactive features will be added gradually while building projects and seeking new work experience.
 
 ## Installation and Setup Instructions
 To see the project, follow these steps:
