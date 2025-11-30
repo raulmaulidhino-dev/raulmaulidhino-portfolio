@@ -1,6 +1,6 @@
 ![My Portfolio Logo](public/cyberpunk-coder-og.jpg)
 
-## Raul Maulidhino Personal Portfolio
+## My Personal Portfolio
 A personal portfolio website, built with HTML, CSS, TailwindCSS, JavaScript and React.
 
 ## Project Status
